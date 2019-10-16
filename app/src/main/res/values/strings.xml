@@ -10,4 +10,10 @@
     <string name="forumbtn">Forum</string>
     <string name="aboutbtn">About</string>
 
+    <!--Home and Previous buttons-->
+
+    <string name="homebtn">Home</string>
+    <string name="prevbtn">Prev</string>
+    <string name="nextbtn">Next</string>
+
 </resources>

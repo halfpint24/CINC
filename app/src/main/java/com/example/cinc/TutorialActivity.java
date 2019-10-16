@@ -1,8 +1,9 @@
 package com.example.cinc;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+import android.view.View;
+import android.content.Intent;
 
 public class TutorialActivity extends AppCompatActivity {
 
@@ -11,4 +12,12 @@ public class TutorialActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tutorial);
     }
+
+    public void onPrevPress(View view) {
+
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+
+    }
+
 }
