@@ -1,0 +1,13 @@
+<resources>
+
+    <!--Home Page-->
+
+    <string name="app_name">CINC</string>
+    <string name="motto">it\'s an app!</string>
+    <string name="tutorialbtn">Tutorial</string>
+    <string name="videobtn">Videos</string>
+    <string name="gamesbtn">Games</string>
+    <string name="forumbtn">Forum</string>
+    <string name="aboutbtn">About</string>
+
+</resources>

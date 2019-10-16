@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:textColor="#FF0000"
+        android:text="@string/app_name"
+        android:textSize="72sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/motto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/motto"
+        android:textColor="#FF9933"
+        android:textSize="36sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <Button
+        android:id="@+id/tutorialbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tutorialbtn"
+        android:textSize="42sp"
+        android:background="#FFFF00"
+        app:layout_constraintBottom_toTopOf="@+id/videobtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/motto" />
+
+    <Button
+        android:id="@+id/videobtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/videobtn"
+        android:textSize="42sp"
+        android:background="#00FF00"
+        app:layout_constraintBottom_toTopOf="@+id/gamesbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tutorialbtn" />
+
+    <Button
+        android:id="@+id/gamesbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gamesbtn"
+        android:textSize="42sp"
+        android:background="#00FFFF"
+        app:layout_constraintBottom_toTopOf="@+id/forumbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videobtn" />
+
+    <Button
+        android:id="@+id/forumbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/forumbtn"
+        android:textSize="42sp"
+        android:background="#0000FF"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/aboutbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gamesbtn" />
+
+    <Button
+        android:id="@+id/aboutbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutbtn"
+        android:textSize="42sp"
+        android:background="#800080"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forumbtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
