@@ -1,63 +1,160 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TutorialActivity"
-    android:background="#FFFF00">
+    android:orientation="vertical"
+    android:background="#FFFF00"
+    tools:context=".TutorialActivity">
 
-    <LinearLayout
+    <!--Prev, Home, Next buttons-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <!--Prev, Home, Next buttons-->
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <Button
+            android:id="@+id/prevbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="@string/prevbtn"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            android:padding="10dp"
+            android:onClick="onPrevPress"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/homebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="@string/homebtn"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            android:padding="10dp"
+            android:onClick="onPrevPress"
+            app:layout_constraintEnd_toStartOf="@+id/nextbtn"
+            app:layout_constraintStart_toEndOf="@+id/prevbtn"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/nextbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:text="@string/nextbtn"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            android:padding="10dp"
+            android:onClick="onNextPress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--Tutorial pages-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
             <Button
-                android:id="@+id/prevbtn"
-                android:layout_width="wrap_content"
+                android:id="@+id/tutorialpage1"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#000000"
-                android:text="@string/prevbtn"
-                android:textColor="#FFFFFF"
-                android:textSize="36sp"
-                android:padding="10dp"
-                android:onClick="onPrevPress"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:text="@string/tutorialpage1"
+                android:layout_marginTop="30dp"
+                android:padding="23dp"
+                android:background="#000080"
+                android:textColor="#FFFF00"
+                android:textSize="22sp"
+                android:onClick="onNextPress"/>
 
             <Button
-                android:id="@+id/homebtn"
-                android:layout_width="wrap_content"
+                android:id="@+id/tutorialpage2"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#000000"
-                android:text="@string/homebtn"
-                android:textColor="#FFFFFF"
-                android:textSize="36sp"
-                android:padding="10dp"
-                android:onClick="onPrevPress"
-                app:layout_constraintEnd_toStartOf="@+id/nextbtn"
-                app:layout_constraintStart_toEndOf="@+id/prevbtn"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:text="@string/tutorialpage2"
+                android:layout_marginTop="30dp"
+                android:padding="23dp"
+                android:background="#000080"
+                android:textColor="#FFFF00"
+                android:textSize="22sp"
+                android:onClick="onNextPress"/>
 
             <Button
-                android:id="@+id/nextbtn"
-                android:layout_width="wrap_content"
+                android:id="@+id/tutorialpage3"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#000000"
-                android:text="@string/nextbtn"
-                android:textColor="#FFFFFF"
-                android:textSize="36sp"
-                android:padding="10dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:text="@string/tutorialpage3"
+                android:layout_marginTop="30dp"
+                android:padding="23dp"
+                android:background="#000080"
+                android:textColor="#FFFF00"
+                android:textSize="22sp"
+                android:onClick="onNextPress"/>
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+            <Button
+                android:id="@+id/tutorialpage4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorialpage4"
+                android:layout_marginTop="30dp"
+                android:padding="23dp"
+                android:background="#000080"
+                android:textColor="#FFFF00"
+                android:textSize="22sp"
+                android:onClick="onNextPress"/>
 
-    </LinearLayout>
+            <Button
+                android:id="@+id/tutorialpage5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorialpage5"
+                android:layout_marginTop="30dp"
+                android:padding="23dp"
+                android:background="#000080"
+                android:textColor="#FFFF00"
+                android:textSize="22sp"
+                android:onClick="onNextPress"/>
 
-</ScrollView>
+            <Button
+                android:id="@+id/tutorialpage6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorialpage6"
+                android:layout_marginTop="30dp"
+                android:padding="23dp"
+                android:background="#000080"
+                android:textColor="#FFFF00"
+                android:textSize="22sp"
+                android:onClick="onNextPress"/>
+
+            <Button
+                android:id="@+id/tutorialpage7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorialpage7"
+                android:layout_marginTop="30dp"
+                android:padding="23dp"
+                android:background="#000080"
+                android:textColor="#FFFF00"
+                android:textSize="22sp"
+                android:onClick="onNextPress"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

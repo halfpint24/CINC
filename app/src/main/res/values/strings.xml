@@ -16,4 +16,13 @@
     <string name="prevbtn">Prev</string>
     <string name="nextbtn">Next</string>
 
+    <!--Tutorial Pages-->
+    <string name="tutorialpage1">Java Introduction</string>
+    <string name="tutorialpage2">Hello World!</string>
+    <string name="tutorialpage3">Dissecting our program</string>
+    <string name="tutorialpage4">Variables</string>
+    <string name="tutorialpage5">Data Types</string>
+    <string name="tutorialpage6">Numbers</string>
+    <string name="tutorialpage7">Strings</string>
+
 </resources>

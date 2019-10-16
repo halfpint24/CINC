@@ -20,4 +20,11 @@ public class TutorialActivity extends AppCompatActivity {
 
     }
 
+    public void onNextPress(View view) {
+
+        Intent intent = new Intent(this, TutorialPage1Activity.class);
+        startActivity(intent);
+
+    }
+
 }
