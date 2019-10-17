@@ -1,7 +1,6 @@
 <resources>
 
     <!--Home Page-->
-
     <string name="app_name">CINC</string>
     <string name="motto">it\'s an app!</string>
     <string name="tutorialbtn">Tutorial</string>
@@ -11,18 +10,37 @@
     <string name="aboutbtn">About</string>
 
     <!--Home and Previous buttons-->
-
     <string name="homebtn">Home</string>
     <string name="prevbtn">Prev</string>
     <string name="nextbtn">Next</string>
 
     <!--Tutorial Pages-->
     <string name="tutorialpage1">Java Introduction</string>
+    <string-array name="contentpage1">
+        <item>Test</item>
+        <item>test2</item>
+    </string-array>
     <string name="tutorialpage2">Hello World!</string>
     <string name="tutorialpage3">Dissecting our program</string>
     <string name="tutorialpage4">Variables</string>
     <string name="tutorialpage5">Data Types</string>
     <string name="tutorialpage6">Numbers</string>
-    <string name="tutorialpage7">Strings</string>
+    <string name="tutorialpage7">Casting</string>
+    <string name="tutorialpage8">Strings</string>
+    <string name="tutorialpage9">Booleans</string>
+    <string name="tutorialpage10">If Statements</string>
+    <string name="tutorialpage11">Loops</string>
+    <string name="tutorialpage12">Arrays</string>
+    <string name="tutorialpage13">Methods</string>
+    <string name="tutorialpage14">Classes and Objects</string>
+    <string name="tutorialpage15">Constructors</string>
+    <string name="tutorialpage16">Getters and Setters</string>
+    <string name="tutorialpage17">Inheritance</string>
+    <string name="tutorialpage18">Polymorphism</string>
+    <string name="tutorialpage19">Abstraction</string>
+    <string name="tutorialpage20">Enums</string>
+    <string name="tutorialpage21">Scanners</string>
+    <string name="tutorialpage22">ArrayLists</string>
+    <string name="tutorialpage23">HashMaps</string>
 
 </resources>

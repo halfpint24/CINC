@@ -79,7 +79,7 @@
                 android:background="#000080"
                 android:textColor="#FFFF00"
                 android:textSize="22sp"
-                android:onClick="onNextPress"/>
+                android:onClick="onNextPress" />
 
             <Button
                 android:id="@+id/tutorialpage2"
@@ -90,8 +90,7 @@
                 android:padding="23dp"
                 android:background="#000080"
                 android:textColor="#FFFF00"
-                android:textSize="22sp"
-                android:onClick="onNextPress"/>
+                android:textSize="22sp" />
 
             <Button
                 android:id="@+id/tutorialpage3"
@@ -102,8 +101,7 @@
                 android:padding="23dp"
                 android:background="#000080"
                 android:textColor="#FFFF00"
-                android:textSize="22sp"
-                android:onClick="onNextPress"/>
+                android:textSize="22sp" />
 
             <Button
                 android:id="@+id/tutorialpage4"
@@ -114,8 +112,7 @@
                 android:padding="23dp"
                 android:background="#000080"
                 android:textColor="#FFFF00"
-                android:textSize="22sp"
-                android:onClick="onNextPress"/>
+                android:textSize="22sp" />
 
             <Button
                 android:id="@+id/tutorialpage5"
@@ -126,8 +123,7 @@
                 android:padding="23dp"
                 android:background="#000080"
                 android:textColor="#FFFF00"
-                android:textSize="22sp"
-                android:onClick="onNextPress"/>
+                android:textSize="22sp" />
 
             <Button
                 android:id="@+id/tutorialpage6"
@@ -138,8 +134,7 @@
                 android:padding="23dp"
                 android:background="#000080"
                 android:textColor="#FFFF00"
-                android:textSize="22sp"
-                android:onClick="onNextPress"/>
+                android:textSize="22sp" />
 
             <Button
                 android:id="@+id/tutorialpage7"
@@ -150,8 +145,183 @@
                 android:padding="23dp"
                 android:background="#000080"
                 android:textColor="#FFFF00"
-                android:textSize="22sp"
-                android:onClick="onNextPress"/>
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/tutorialpage8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorialpage8"
+                android:layout_marginTop="30dp"
+                android:padding="23dp"
+                android:background="#000080"
+                android:textColor="#FFFF00"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/tutorialpage9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorialpage9"
+                android:layout_marginTop="30dp"
+                android:padding="23dp"
+                android:background="#000080"
+                android:textColor="#FFFF00"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/tutorialpage10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorialpage10"
+                android:layout_marginTop="30dp"
+                android:padding="23dp"
+                android:background="#000080"
+                android:textColor="#FFFF00"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/tutorialpage11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorialpage11"
+                android:layout_marginTop="30dp"
+                android:padding="23dp"
+                android:background="#000080"
+                android:textColor="#FFFF00"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/tutorialpage12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorialpage12"
+                android:layout_marginTop="30dp"
+                android:padding="23dp"
+                android:background="#000080"
+                android:textColor="#FFFF00"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/tutorialpage13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorialpage13"
+                android:layout_marginTop="30dp"
+                android:padding="23dp"
+                android:background="#000080"
+                android:textColor="#FFFF00"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/tutorialpage14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorialpage14"
+                android:layout_marginTop="30dp"
+                android:padding="23dp"
+                android:background="#000080"
+                android:textColor="#FFFF00"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/tutorialpage15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorialpage15"
+                android:layout_marginTop="30dp"
+                android:padding="23dp"
+                android:background="#000080"
+                android:textColor="#FFFF00"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/tutorialpage16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorialpage16"
+                android:layout_marginTop="30dp"
+                android:padding="23dp"
+                android:background="#000080"
+                android:textColor="#FFFF00"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/tutorialpage17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorialpage17"
+                android:layout_marginTop="30dp"
+                android:padding="23dp"
+                android:background="#000080"
+                android:textColor="#FFFF00"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/tutorialpage18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorialpage18"
+                android:layout_marginTop="30dp"
+                android:padding="23dp"
+                android:background="#000080"
+                android:textColor="#FFFF00"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/tutorialpage19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorialpage19"
+                android:layout_marginTop="30dp"
+                android:padding="23dp"
+                android:background="#000080"
+                android:textColor="#FFFF00"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/tutorialpage20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorialpage20"
+                android:layout_marginTop="30dp"
+                android:padding="23dp"
+                android:background="#000080"
+                android:textColor="#FFFF00"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/tutorialpage21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorialpage21"
+                android:layout_marginTop="30dp"
+                android:padding="23dp"
+                android:background="#000080"
+                android:textColor="#FFFF00"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/tutorialpage22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorialpage22"
+                android:layout_marginTop="30dp"
+                android:padding="23dp"
+                android:background="#000080"
+                android:textColor="#FFFF00"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/tutorialpage23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tutorialpage23"
+                android:layout_marginTop="30dp"
+                android:padding="23dp"
+                android:background="#000080"
+                android:textColor="#FFFF00"
+                android:textSize="22sp" />
 
         </LinearLayout>
 
