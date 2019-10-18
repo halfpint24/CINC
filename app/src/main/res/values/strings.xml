@@ -17,8 +17,11 @@
     <!--Tutorial Pages-->
     <string name="tutorialpage1">Java Introduction</string>
     <string-array name="contentpage1">
-        <item>Test</item>
-        <item>test2</item>
+        <item>What is Java?</item>
+        <item>Java is a programming language made in 1995 by James Gosling at Sun Microsystems, who maintained the language until 2010, when Oracle bought the company. Java is a compiled language, meaning the code compiles into a format readable by the machine. Java is different, however, because rather than compiling straight to binary(0s and 1s) to be run straight on the CPU, it compiles into something called \'bytecode\'. The bytecode can then be run on the Java Virtual Machine(JVM), which means that anything with a JVM is able to run the code.</item>
+        <item>How do I write Java code?</item>
+        <item>You\'ll need the JDK and a text editor. The Java JDK(Java Development Kit) gives you the tools to develop a Java program, including a compiler and a JRE(Java Runtime Environment). The compiler converts the Java source code into bytecode. The JRE interprets and reads the bytecode, and is what you download if you only want to run Java programs instead of developing. To check if you have the JDK installed, type \'java\' in the command prompt on Windows or the terminal on Mac or Linux. If you see a whole bunch of crap on the screen, then you have Java ready to go. If you don\'t, then you need to download it. Simply google \'Java Development Kit 8\', find the appropriate architecture and OS, and wait until it downloads. Once it\'s finished, just run through the GUI that shows up.</item>
+        <item>In addition to the JDK, a text editor is required. A text editor is a program that allows you to write code. Several different choices exist for this and the choice is up to you. I recommend Notepad++, TextMate, Visual Studio Code, and Atom. I do not, however, endorse you to use an IDE(Integrated Development Environment) such as Intellij or Eclipse just yet. An IDE is an advanced coding software that not only includes a text editor, but also includes a compiler, debugger, and other tools. The reason why I don\'t want you to use these is because they include a feature called intellisense, which fills in code for you. This is good for developers who know what they\'re doing, but you don\'t just yet. Just stick to a text editor and code the hard way before using an IDE.</item>
     </string-array>
     <string name="tutorialpage2">Hello World!</string>
     <string name="tutorialpage3">Dissecting our program</string>
