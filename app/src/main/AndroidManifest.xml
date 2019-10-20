@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TutorialPage1Activity"></activity>
+        <activity android:name=".TutorialPage2Activity"></activity>
+        <activity android:name=".TutorialPage1Activity" />
         <activity android:name=".TutorialActivity$TutorialPage1Activity" />
         <activity android:name=".AboutActivity" />
         <activity android:name=".ForumActivity" />

@@ -6,15 +6,15 @@ import android.os.Bundle
 import android.view.View
 import android.widget.TextView
 
-class TutorialPage1Activity : AppCompatActivity() {
+class TutorialPage2Activity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_tutorial_page1)
+        setContentView(R.layout.activity_tutorial_page2)
 
-        val strings = resources.getStringArray(R.array.contentpage1)
-        val textView = findViewById<TextView>(R.id.contentpage1)
+        val strings = resources.getStringArray(R.array.contentpage2)
+        val textView = findViewById<TextView>(R.id.contentpage2)
         var str = ""
 
         for (i in strings.indices) {
@@ -27,6 +27,13 @@ class TutorialPage1Activity : AppCompatActivity() {
 
     fun onPrevPress(view: View) {
 
+        val intent = Intent(this, TutorialPage1Activity::class.java)
+        startActivity(intent)
+
+    }
+
+    fun onHomePress(view: View) {
+
         val intent = Intent(this, TutorialActivity::class.java)
         startActivity(intent)
 
@@ -34,8 +41,8 @@ class TutorialPage1Activity : AppCompatActivity() {
 
     fun onNextPress(view: View) {
 
-        val intent = Intent(this, TutorialPage2Activity::class.java)
-        startActivity(intent)
+        //val intent = Intent(this, TutorialPage3Activity::class.java)
+        //startActivity(intent)
 
     }
 

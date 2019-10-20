@@ -24,6 +24,27 @@
         <item>In addition to the JDK, a text editor is required. A text editor is a program that allows you to write code. Several different choices exist for this and the choice is up to you. I recommend Notepad++, TextMate, Visual Studio Code, and Atom. I do not, however, endorse you to use an IDE(Integrated Development Environment) such as Intellij or Eclipse just yet. An IDE is an advanced coding software that not only includes a text editor, but also includes a compiler, debugger, and other tools. The reason why I don\'t want you to use these is because they include a feature called intellisense, which fills in code for you. This is good for developers who know what they\'re doing, but you don\'t just yet. Just stick to a text editor and code the hard way before using an IDE.</item>
     </string-array>
     <string name="tutorialpage2">Hello World!</string>
+    <string-array name="contentpage2">
+        <item>Let\'s write our first program! In this simple program, we will print the text \'Hello World!\' to the console window.</item>
+        <item>Open up your favorite text editor and press File -> Save/Save As or press Ctrl or Cmd + S. Navigate to a directory and save the file as \'HelloWorld.java\'. Note that the file name should start with a capital letter and must include no spaces, special characters, or start with a number.</item>
+        <item>After you save, we should be ready to start typing. Let\'s write our first line of code now. Type this into the editor:</item>
+        <item>public class HelloWorld {</item>
+        <item> </item>
+        <item>}</item>
+        <item>You may be wondering what the word public or class mean. Or what the curly braces mean. Don\'t worry, by the end of the tutorial you will know what all of this means. Right now, just know that all of the code we will write will be inside the curly braces.</item>
+        <item>Inside the curly braces, type:</item>
+        <item>public static void main(String[] args) {</item>
+        <item> </item>
+        <item>}</item>
+        <item>Again, you may be curious on what all this random crap is. Just be patient and we will figure it out piece by piece. It may seem weird right now, but it will make sense later, I promise.</item>
+        <item>Finally, type inside of both curly braces:</item>
+        <item>System.out.print(\"Hello World!\");</item>
+        <item>Note the semicolon at the end. Also note that Java does not care about extra space, so you may indent as much as you like to make a the code more readable.</item>
+        <item>Now we can run the code. Open up Command Prompt(Windows) or Terminal(Mac/Linux) and go to the directory where you saved the source file(if you are not familiar with the command line, \'cd directory\' goes into a directory and \'ls\' lists all files in the directory). Once you\'re there, type \'javac HelloWorld.java\'</item>
+        <item>Something interesting happened when you ran that command. Type \'ls\' in the same directory, you not only have your java source file that you made, but there is also another file called \'HelloWorld.class\'. What is this file, you might ask? It\'s the Java bytecode that you compiled with the javac command. This is necessary because the JVM cannot recognize a java source file(.java), as this is the format that humans understand. By running javac, you made the .class file, which is the format the JVM understands.</item>
+        <item>To run the file, make sure you are in the directory with the .class file. Then type \'java HelloWorld\'. You should see the text \'Hello World!\' on the screen. If you get an error, you may have mistyped something.</item>
+        <item>Congratulations! We have just written our first functional Java Program.</item>
+    </string-array>
     <string name="tutorialpage3">Dissecting our program</string>
     <string name="tutorialpage4">Variables</string>
     <string name="tutorialpage5">Data Types</string>

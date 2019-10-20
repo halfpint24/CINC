@@ -90,7 +90,8 @@
                 android:padding="23dp"
                 android:background="#000080"
                 android:textColor="#FFFF00"
-                android:textSize="22sp" />
+                android:textSize="22sp"
+                android:onClick="onPage2Press" />
 
             <Button
                 android:id="@+id/tutorialpage3"

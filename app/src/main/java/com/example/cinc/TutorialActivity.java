@@ -27,4 +27,11 @@ public class TutorialActivity extends AppCompatActivity {
 
     }
 
+    public void onPage2Press(View view) {
+
+        Intent intent = new Intent(this, TutorialPage2Activity.class);
+        startActivity(intent);
+
+    }
+
 }
