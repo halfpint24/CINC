@@ -1,8 +1,9 @@
 package com.example.cinc;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+import android.view.View;
+import android.content.Intent;
 
 public class VideoActivity extends AppCompatActivity {
 
@@ -11,4 +12,19 @@ public class VideoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_video);
     }
+
+    public void onPrevPress(View view) {
+
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+
+    }
+
+    public void onNextPress(View view) {
+
+        //Intent intent = new Intent(this, VideoPage1.class);
+        //startActivity(intent);
+
+    }
+
 }
