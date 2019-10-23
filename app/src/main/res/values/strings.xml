@@ -67,4 +67,10 @@
     <string name="tutorialpage22">ArrayLists</string>
     <string name="tutorialpage23">HashMaps</string>
 
+    <!--Games Page-->
+    <string name="gamestitle">Games!</string>
+    <string name="vs">Versus</string>
+    <string name="thirtysecstowin">30 Seconds to Win</string>
+    <string name="climbtheladder">Climb the Ladder</string>
+
 </resources>
