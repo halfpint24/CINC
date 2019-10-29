@@ -18,14 +18,7 @@ public class ForumActivity extends AppCompatActivity {
         WebView webview = (WebView)findViewById(R.id.webview);
         webview.setWebViewClient(new WebViewClient());
         webview.getSettings().setJavaScriptEnabled(true);
-        webview.loadUrl("http://www.google.com");
-
-    }
-
-    public void onPrevPress(View view) {
-
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
+        webview.loadUrl("https://www.facebook.com/groups/728551467649357/");
 
     }
 
