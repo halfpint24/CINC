@@ -44,7 +44,6 @@ public class VSActivity extends AppCompatActivity {
         problems.put("Consider the following code:\nint num = 1;\nSystem.out.println(num++)\n What is printed out in the console?", "1");
         problems.put("Consider the following code:\nint num = 1;\nSystem.out.println(++num)\n What is printed out in the console?", "2");
         problems.put("Consider the following code:\nArrayList<Integer> arrli = new ArrayList<>();\narrli.add(1);\narrli.add(2);\narrli.add(3)\narrli.remove(2);\narrli.set(1,4);\narrli.add(1,5);\narrli.set(2,6);\nfor(int num : arrli)\nSystem.out.print(num + \" \");\n What is printed?", "1 5 6");
-        problems.put("", "");
 
         questions.addAll(problems.keySet());
 
