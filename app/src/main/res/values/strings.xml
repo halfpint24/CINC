@@ -74,6 +74,6 @@
     <string name="directions">directions: answer the questions(5 total). The system is competing with you, beat the computer to win!</string>
     <string name="hint">Type your response here</string>
     <string name="thirtysecstowin">30 Seconds to Win</string>
-    <string name="climbtheladder">Climb the Ladder</string>
+    <string name="comingsoon">More games coming soon!</string>
 
 </resources>
