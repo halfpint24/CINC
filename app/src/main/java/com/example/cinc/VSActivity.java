@@ -26,6 +26,7 @@ public class VSActivity extends AppCompatActivity {
         textview = findViewById(R.id.textview);
 
         problems = new HashMap<String, String>();
+        questions = new ArrayList<String>();
 
         problems.put("Java was created by", "James Gosling");
         problems.put("What keyword indicates that the method does not return anything?", "void");
