@@ -51,6 +51,7 @@
         android:text="@string/vs"
         android:textColor="#00FFFF"
         android:textSize="42sp"
+        android:onClick="onVsPress"
         app:layout_constraintBottom_toTopOf="@+id/thirtysecstowin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

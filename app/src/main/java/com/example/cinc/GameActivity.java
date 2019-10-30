@@ -20,4 +20,11 @@ public class GameActivity extends AppCompatActivity {
 
     }
 
+    public void onVsPress(View view) {
+
+        Intent intent = new Intent(this, VSActivity.class);
+        startActivity(intent);
+
+    }
+
 }
