@@ -55,6 +55,7 @@
                 android:layout_marginTop="40dp"
                 android:contentDescription="@string/videopage2"
                 android:src="@drawable/thumbnail2"
+                android:onClick="onVideo2Press"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/imgbtn1" />
@@ -66,6 +67,7 @@
                 android:layout_marginTop="40dp"
                 android:contentDescription="@string/videopage3"
                 android:src="@drawable/thumbnail3"
+                android:onClick="onVideo3Press"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/imgbtn2" />
@@ -77,6 +79,7 @@
                 android:layout_marginTop="40dp"
                 android:contentDescription="@string/videopage4"
                 android:src="@drawable/thumbnail4"
+                android:onClick="onVideo4Press"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/imgbtn3" />

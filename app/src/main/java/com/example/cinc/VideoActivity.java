@@ -29,4 +29,25 @@ public class VideoActivity extends AppCompatActivity {
 
     }
 
+    public void onVideo2Press(View view) {
+
+        Intent intent = new Intent(this, VideoPage2Activity.class);
+        startActivity(intent);
+
+    }
+
+    public void onVideo3Press(View view) {
+
+        Intent intent = new Intent(this, VideoPage3Activity.class);
+        startActivity(intent);
+
+    }
+
+    public void onVideo4Press(View view) {
+
+        Intent intent = new Intent(this, VideoPage4Activity.class);
+        startActivity(intent);
+
+    }
+
 }

@@ -12,7 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".VideoPage1Activity"></activity>
+        <activity android:name=".VideoPage4Activity" android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".VideoPage3Activity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".VideoPage2Activity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".VideoPage1Activity"
+            android:screenOrientation="landscape" />
         <activity android:name=".ThirtySecondsActivity" />
         <activity android:name=".VSActivity" />
         <activity android:name=".TutorialPage2Activity" />
