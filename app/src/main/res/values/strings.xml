@@ -67,6 +67,12 @@
     <string name="tutorialpage22">ArrayLists</string>
     <string name="tutorialpage23">HashMaps</string>
 
+    <!--Video Page-->
+    <string name="videopage1">Series Introduction</string>
+    <string name="videopage2">Variables and Data Types</string>
+    <string name="videopage3">Numbers</string>
+    <string name="videopage4">Strings</string>
+
     <!--Games Page-->
     <string name="gamestitle">Games!</string>
     <string name="submitbtn">Submit</string>
