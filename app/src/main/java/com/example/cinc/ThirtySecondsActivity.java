@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Looper;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -17,9 +18,8 @@ import java.util.Random;
 
 public class ThirtySecondsActivity extends AppCompatActivity {
 
-    private int currentround = 0;
-    private final int NUMROUNDS = 5;
     private int currenttime = 0;
+    private boolean isPlaying = true;
     private final int SECONDS = 30;
     private Button btn;
     private TextView textview;
@@ -69,6 +69,7 @@ public class ThirtySecondsActivity extends AppCompatActivity {
                 currenttime++;
                 if(currenttime > SECONDS) {
                     cancel();
+                    System.exit(0);
                 }
             }
         }, 1000, 1000);
@@ -91,12 +92,24 @@ public class ThirtySecondsActivity extends AppCompatActivity {
                     new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
+                            currenttime = 0;
+                            timer.schedule(new TimerTask() {
+                                @Override
+                                public void run() {
+                                    currenttime++;
+                                    if(currenttime > SECONDS) {
+                                        cancel();
+                                        System.exit(0);
+                                    }
+                                }
+                            }, 1000, 1000);
                             dialog.dismiss();
                         }
                     });
             alertdialog.show();
         }
         else {
+            isPlaying = false;
             AlertDialog alertdialog = new AlertDialog.Builder(ThirtySecondsActivity.this).create();
             alertdialog.setTitle("Oh no!");
             alertdialog.setMessage("Whoops! You got it wrong :(\nThe answer was " + problems.get(currentquestion));
@@ -113,9 +126,8 @@ public class ThirtySecondsActivity extends AppCompatActivity {
         edittext.setText("");
         currentquestion = questions.get(r.nextInt(questions.size()));
         textview.setText(currentquestion);
-        currentround++;
 
-        if(currentround >= NUMROUNDS) {
+        if(!isPlaying) {
             final Intent intent = new Intent(this, GameActivity.class);
             AlertDialog alertdialog = new AlertDialog.Builder(ThirtySecondsActivity.this).create();
             alertdialog.setTitle("That's the game!");
@@ -125,6 +137,7 @@ public class ThirtySecondsActivity extends AppCompatActivity {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             dialog.dismiss();
+                            System.exit(0);
                         }
                     });
             alertdialog.setOnDismissListener(new DialogInterface.OnDismissListener() {
