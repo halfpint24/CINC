@@ -29,33 +29,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
-            android:id="@+id/homebtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#000000"
-            android:text="@string/homebtn"
-            android:textColor="#FFFFFF"
-            android:textSize="36sp"
-            android:padding="10dp"
-            android:onClick="onPrevPress"
-            app:layout_constraintEnd_toStartOf="@+id/nextbtn"
-            app:layout_constraintStart_toEndOf="@+id/prevbtn"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <Button
-            android:id="@+id/nextbtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#000000"
-            android:text="@string/nextbtn"
-            android:textColor="#FFFFFF"
-            android:textSize="36sp"
-            android:padding="10dp"
-            android:onClick="onNextPress"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ScrollView

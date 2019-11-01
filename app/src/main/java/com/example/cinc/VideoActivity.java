@@ -20,11 +20,4 @@ public class VideoActivity extends AppCompatActivity {
 
     }
 
-    public void onNextPress(View view) {
-
-        //Intent intent = new Intent(this, VideoPage1.class);
-        //startActivity(intent);
-
-    }
-
 }
