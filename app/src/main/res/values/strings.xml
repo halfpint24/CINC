@@ -72,8 +72,16 @@
     <string name="submitbtn">Submit</string>
     <string name="vs">Versus</string>
     <string name="directions">directions: answer the questions(5 total). The system is competing with you, beat the computer to win!</string>
+    <string name="directions2">directions: answer the questions(5 total). You only have 30 seconds to complete each question, so think fast!</string>
     <string name="hint">Type your response here</string>
     <string name="thirtysecstowin">30 Seconds to Win</string>
     <string name="comingsoon">More games coming soon!</string>
+
+    <!--About Page-->
+    <string name="abouttitle">About CINC</string>
+    <string name="about1">This app was made by Collin Padgett for the Congressional App Challenge(CAC).</string>
+    <string name="purpose">Purpose of this app</string>
+    <string name="about2">The purpose of CINC is to make the industry of computer science more accessible to more people. As such, simplicity and terseness was key in its design. CINC is a recursive acronym that stands for \'CINC Is Not a Classroom\'. This refers to the developer\'s negative experience over his experience in his high school web design class.</string>
+    <string name="copyright">Copyright 2019 Collin Padgett. All rights reserved.</string>
 
 </resources>

@@ -4,6 +4,65 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#800080"
     tools:context=".AboutActivity">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/abouttitle"
+                android:textColor="#FFF"
+                android:textSize="44sp"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about1"
+                android:textColor="#FFF"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/purpose"
+                android:textColor="#FFF"
+                android:textSize="44sp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about2"
+                android:textColor="#FFF"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/copyright"
+                android:textColor="#FFF"
+                android:paddingTop="40dp"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -27,4 +27,11 @@ public class GameActivity extends AppCompatActivity {
 
     }
 
+    public void onThirtySecondsPress(View view) {
+
+        Intent intent = new Intent(this, ThirtySecondsActivity.class);
+        startActivity(intent);
+
+    }
+
 }

@@ -12,7 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".VSActivity"></activity>
+        <activity android:name=".ThirtySecondsActivity"></activity>
+        <activity android:name=".VSActivity" />
         <activity android:name=".TutorialPage2Activity" />
         <activity android:name=".TutorialPage1Activity" />
         <activity android:name=".TutorialActivity$TutorialPage1Activity" />
